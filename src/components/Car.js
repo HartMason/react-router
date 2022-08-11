@@ -10,12 +10,12 @@ const Car = (props) => {
     const car = cars.find(car.id == carId)
 
     return (
-        <div>
-        {cars.map((car, index) => {
-            return(
-        <h1>{cars.Name}</h1>
-            )
-       </div>
-    )
-    }
+    //     <div>
+    //     {cars.map((cars, index) => {
+    //         return(
+    //     <h1>{cars.Name}</h1>
+    //         )
+    //    </div>
+    // // 
+    ) }
 export default Car

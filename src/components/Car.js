@@ -6,9 +6,16 @@ import cars from '../cars.json'
 // Container, Paper, Chip //
 
 const Car = (props) => {
-    return (
-        <h1>A specific car</h1>
-    )
-}
+    const carId = userParams().carId
+    const car = cars.find(car.id == carId)
 
+    return (
+        <div>
+        {cars.map((car, index) => {
+            return(
+        <h1>{cars.Name}</h1>
+            )
+       </div>
+    )
+    }
 export default Car

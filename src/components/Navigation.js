@@ -1,7 +1,10 @@
 import React from 'react'
 import { AppBar, Toolbar, IconButton, Typography } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
-// Import { Link } here //
+import About from './About'
+import { Link } from "react-router-dom"
+import Home from './Home'
+
 
 const Navigation = () => {
     return (
@@ -15,10 +18,10 @@ const Navigation = () => {
                 </Typography>
                 <ul className="nav-list">
                     <li className="nav-list-item">
-                        {/* Add Link here */}
+                        <Link to={About}/>
                     </li>
                     <li className="nav-list-item">
-                        {/* Add Link here */}
+                        <Link to={Home}/>
                     </li>
                 </ul>
             </Toolbar>

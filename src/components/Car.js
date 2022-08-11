@@ -1,21 +1,20 @@
 import React from 'react'
 import cars from '../cars.json'
-// Import {useParams} from "react-router-dom" here //
+import {useParams} from "react-router-dom" 
 
-// import MUI components here //
-// Container, Paper, Chip //
+// // import MUI components here //
+// // Container, Paper, Chip //
 
 const Car = (props) => {
-    const carId = userParams().carId
-    const car = cars.find(car.id == carId)
+    const { carId } = useParams();
+    console.log(carId)
+  
+
 
     return (
-    //     <div>
-    //     {cars.map((cars, index) => {
-    //         return(
-    //     <h1>{cars.Name}</h1>
-    //         )
-    //    </div>
-    // // 
-    ) }
+        <div>
+            
+        </div>
+)
+    }
 export default Car
